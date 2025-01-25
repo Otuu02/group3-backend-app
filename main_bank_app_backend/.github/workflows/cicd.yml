@@ -8,6 +8,7 @@ on:
   pull_request:
     branches:
       - cicd
+  workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
   Continues-Integration_build_and_push:
