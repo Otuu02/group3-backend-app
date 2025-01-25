@@ -51,7 +51,7 @@ jobs:
       - name: Update the kubernetes Deployment file. 
         run: |
           cat deployment/deploy.yaml
-          sed -i "s+supportcloud160/bank-app-backend:.*+supportcloud160/bank-app-backend:${{ github.run_number }}+g" deployment/deploy.yaml
+          sed -i "s+gtech2024/group3_bankapp:.*+gtech2024/group3_bankapp:${{ github.run_number }}+g" deployment/deploy.yaml
           cat deployment/deploy.yaml
 
 
