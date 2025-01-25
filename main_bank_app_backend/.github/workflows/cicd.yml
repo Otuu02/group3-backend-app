@@ -5,9 +5,9 @@ on:
   push:
     branches:
       - main
-  # pull_request:
-  #   branches:
-  #     - cicd
+   pull_request:
+     branches:
+       - cicd
 
 jobs:
   Continues-Integration_build_and_push:
