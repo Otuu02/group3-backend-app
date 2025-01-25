@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          repository: group3-backend-app
+          repository: Otuu02/group3-backend-app
           ref: main
 
       - name: Build Container Image
