@@ -1,4 +1,4 @@
-name: Bank Backend App Pipeline
+name: Bank Backend Pipeline
 
 on:
   push:
